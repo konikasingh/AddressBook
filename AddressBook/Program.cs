@@ -6,7 +6,7 @@ namespace AddressBook
     {
         static void Main(string[] args)
         {
-            UC2AddressBook book = new UC2AddressBook(); // creating object of class
+            UC3AddressBook book = new UC3AddressBook(); // creating object of class
             string yes = "y";
             string y;
 
@@ -37,10 +37,12 @@ namespace AddressBook
 
                     case 3:
                         /// Edit Contact
+                        book.editContact();
                         break;
 
                     case 4:
                         /// Remove Contact
+                       // book.removeContact();
                         break;
 
                     default:
